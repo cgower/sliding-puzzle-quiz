@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "src/styles/gameboard.css",
+    "inputFile": "src/styles/gameboard.scss"
+  },
+  {
+    "outputFile": "src/styles/page.css",
+    "inputFile": "src/styles/page.scss"
+  },
+  {
+    "outputFile": "src/styles/tile.css",
+    "inputFile": "src/styles/tile.scss"
+  }
+]

@@ -1,0 +1,54 @@
+﻿.sliding-puzzle-figure .sliding-puzzle .tile {
+
+  position:absolute;
+  display:block;
+  box-sizing:padding-box;
+  top:10px;
+  left:10px;
+  width:56px;
+  height:56px;
+  background-color:#fff;
+  border:solid 6px;
+    border-top-color:#ccc;
+    border-left-color:#ccc;
+    border-bottom-color: #787878;
+    border-right-color:#787878;
+  font-family: Arial, sans-serif;
+  font-size:38px;
+  font-weight:normal;
+  text-align:center;
+  line-height:56px;
+  transition:top ease-in-out .75s, left ease-in-out .75s, background-color ease-in-out .35s, opacity ease-in-out .35s;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.inactive{
+  background-color:#ffffff;
+  opacity:1.0;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.inactive:hover{
+  opacity:.85;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.inactive:active{
+  background-color:#fc625d;
+  opacity:1.0;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.interactive{
+  background-color:#febe41;
+  opacity:.75;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.interactive:hover{
+  opacity:.85;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.interactive:active{
+  opacity:1.0;
+}
+
+.sliding-puzzle-figure .sliding-puzzle .tile.selected{
+  background-color:#36d34d;
+  opacity:1.0;
+}

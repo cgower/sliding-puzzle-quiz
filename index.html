@@ -4,6 +4,24 @@
 
     <title>Sliding Puzzle</title>
 
+  <link rel="stylesheet" href="src/styles/page.css" />
+  <link rel="stylesheet" href="src/styles/gameboard.css" />
+  <link rel="stylesheet" href="src/styles/tile.css" />
+
+
+  <script type="text/javascript" src="src/scripts/lib/things.events.js"></script>
+  <script type="text/javascript" src="src/scripts/lib/things.eventhandling.js"></script>
+  <script type="text/javascript" src="src/scripts/lib/things.domaccess.js"></script>
+  <script type="text/javascript" src="src/scripts/lib/things.typevalidation.js"></script>
+  <script type="text/javascript" src="src/scripts/lib/things.collections.namedlist.js"></script>
+  <script type="text/javascript" src="src/scripts/lib/things.customeventhandling.js"></script>
+  <script type="text/javascript" src="src/scripts/app/puzzle.js"></script>
+  <script type="text/javascript" src="src/scripts/app/puzzle.game.js"></script>
+  <script type="text/javascript" src="src/scripts/app/puzzle.gameboard.js"></script>
+  <script type="text/javascript" src="src/scripts/app/puzzle.tile.js"></script>
+  <script type="text/javascript" src="src/scripts/global.js"></script>
+
+
 </head>
 <body>
 
@@ -25,5 +43,14 @@
     </figure>
     <!-- Do not edit any html in the body tag -->
 
+
+  <script type="text/javascript">
+    var eightTileGame = startEightTilePuzzle();
+
+    var columns = eightTileGame.settings.columns;
+  </script>
+
 </body>
+
+
 </html>
